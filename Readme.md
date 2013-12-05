@@ -9,3 +9,5 @@ These look like:
 ![failing](https://raw.github.com/microadam/strider-build-badge/master/images/build_failing.png)
 
 ![unknown](https://raw.github.com/microadam/strider-build-badge/master/images/build_unknown.png)
+
+They are accessed by going to: http://my-strider-instance/test/repo/badge
