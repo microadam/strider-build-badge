@@ -1,0 +1,32 @@
+{
+  "name": "strider-build-badge",
+  "version": "0.0.0",
+  "description": "Enables strider to have build status badges",
+  "main": "webapp.js",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/microadam/strider-build-badge.git"
+  },
+  "keywords": [
+    "strider",
+    "plugin"
+  ],
+  "author": "Adam Duncan <adam.jd@gmail.com>",
+  "license": "BSD",
+  "strider": {
+    "type": "basic",
+    "id": "buildbadge",
+    "title": "Build Badge",
+    "webapp": "webapp.js"
+  },
+  "devDependencies": {
+    "mocha": "~1.15.1",
+    "expect.js": "~0.2.0"
+  }
+}
