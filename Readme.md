@@ -10,4 +10,4 @@ These look like:
 
 ![unknown](https://raw.github.com/microadam/strider-build-badge/master/images/build_unknown.png)
 
-They are accessed by going to: http://my-strider-instance/test/repo/badge
+They are accessed by going to: http://my-strider-instance/test/repo/badge?branch=master
