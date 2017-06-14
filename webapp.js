@@ -10,7 +10,7 @@ module.exports = function (context, done) {
         console.error('[badge] error occured when getting badge: ' + error.message)
       }
       res.setHeader('Cache-Control', 'no-cache')
-      res.sendfile(__dirname + '/images/' + imageName)
+      res.sendFile(__dirname + '/images/' + imageName)
     })
   })
   done()
