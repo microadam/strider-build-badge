@@ -1,6 +1,6 @@
 {
   "name": "strider-build-badge",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Enables strider to have build status badges",
   "main": "webapp.js",
   "publishConfig": {
